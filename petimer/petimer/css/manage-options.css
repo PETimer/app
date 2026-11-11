@@ -1,3 +1,0 @@
-/* Edição de cor dos cargos/projetos. */
-
-.manage-color-edit{position:relative;display:inline-flex;flex-shrink:0}.manage-color-edit button.manage-color-dot{border:0;padding:0;cursor:pointer;transition:transform 130ms;flex-shrink:0}.manage-color-edit button:hover:not(:disabled){transform:scale(1.08);outline:1px solid var(--border);outline-offset:2px}.manage-color-edit button:focus-visible{outline:2px solid var(--accent);outline-offset:3px}.manage-color-edit button:disabled{opacity:.55;cursor:default}.manage-color-edit input{position:absolute;width:1px;height:1px;opacity:0;pointer-events:none}
