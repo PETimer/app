@@ -1,0 +1,24 @@
+/* Variáveis de cor, reset e tipografia base. */
+
+  :root{
+    --sidebar:#1c1f2b; --sidebar-hover:rgba(255,255,255,.06); --sidebar-text:#9297a8; --sidebar-text-active:#ffffff;
+    --bg:#f3f4f7; --surface:#ffffff; --surface-2:#fafbfc; --border:#e4e6ec; --text:#23262f; --muted:#767b8a;
+    --accent:#276097; /* Azul claro PETimer */
+    --accent-dark:#082f53; /* Azul escuro PETimer */
+    --danger:#e8564f; --radius:10px;
+    --shadow:0 1px 2px rgba(20,22,30,.04), 0 1px 4px rgba(20,22,30,.03);
+    --accent-soft:rgba(39, 96, 151,.10);
+    --sheet-head-bg:#dce7f2;
+    --sheet-head-text:#173b5c;
+    --sheet-head-subtext:rgba(23,59,92,.82);
+    --sheet-goal-bg:#d0e0ef;
+    --sheet-foot-bg:#e1eaf3;
+    --sheet-foot-text:#173b5c;
+    --sheet-head-line:rgba(23,59,92,.13);
+    --sheet-zebra:#e8ecf1;
+    --sheet-hover:#dde5ee;
+  }
+  *{box-sizing:border-box;} html,body{margin:0;padding:0;}
+  body{background:var(--bg); color:var(--text); font-family:'Inter',sans-serif; min-height:100vh; -webkit-font-smoothing:antialiased;}
+  
+  [hidden] { display: none !important; }
