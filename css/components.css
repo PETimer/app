@@ -1,0 +1,30 @@
+/* Botões, campos de formulário e tabelas. */
+
+  /* BOTOES E INPUTS */
+  input, select{ font-family:'Inter',sans-serif; background:var(--surface); color:var(--text); border:1px solid var(--border); border-radius:7px; padding:10px 12px; font-size:13.5px; width:100%; }
+  input:focus{outline:2px solid rgba(39, 96, 151,.35); border-color:var(--accent);}
+  .btn-solid{ background:var(--accent); color:#ffffff; border:none; border-radius:7px; padding:10px 16px; font-weight:700; font-size:13px; cursor:pointer; width:100%; transition:opacity .15s; }
+  .btn-solid:hover:not(button:disabled){opacity:0.9;}
+  .btn-solid .line-icon{color:#ffffff;}
+  .btn-outline{ background:transparent; border:1px solid var(--border); color:var(--text); border-radius:7px; padding:10px 16px; font-weight:600; font-size:13px; cursor:pointer; }
+  .btn-outline:hover:not(button:disabled){ border-color:#c7cad5; }
+  .icon-btn{background:transparent; border:none; color:var(--muted); font-size:14px; padding:4px 6px; cursor:pointer; border-radius:4px;}
+  .icon-btn:hover:not(button:disabled){color:var(--danger); background:rgba(232,86,79,.08);}.icon-btn svg{display:block;}
+  
+  .tracker-input{flex:1; border:none; background:transparent; font-size:14.5px; padding:6px 8px; font-weight:500;}
+  .tracker-input:focus{outline:none;}
+  .timer-readout{font-family:inherit; font-size:13px; font-weight:400; min-width:96px; text-align:right; font-variant-numeric:tabular-nums;}
+  .btn-pill{border:none; border-radius:24px; padding:9px 22px; font-weight:700; font-size:12.5px; cursor:pointer;}
+  .btn-start{background:var(--accent); color:#ffffff;}
+  .btn-stop{background:var(--danger); color:#fff;}
+
+  /* TABELAS / LISTAS */
+  .list-head{display:flex; justify-content:space-between; align-items:center; padding:14px 18px; border-bottom:1px solid var(--border);}
+  .list-head h3{font-size:14px; font-weight:700; margin:0;}
+  .row-item{display:flex; align-items:center; gap:12px; padding:12px 18px; border-bottom:1px solid var(--border);}
+  .row-item:last-child{border-bottom:none;}
+  .badge-user{font-size:11px; font-weight:700; background:var(--surface-2); border:1px solid var(--border); padding:2px 6px; border-radius:4px; color:var(--muted);}
+  .badge-admin{background:rgba(39, 96, 151,.15); color:var(--accent-dark); border-color:rgba(39, 96, 151,.3);}
+  .flex-1{flex:1; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+  .text-mono{font-family:'IBM Plex Mono',monospace;}
+  .empty{color:var(--muted); font-size:13px; text-align:center; padding:30px 0;}

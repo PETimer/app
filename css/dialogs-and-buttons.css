@@ -1,0 +1,45 @@
+/* Rolagem contida em caixas, botões desativados/assíncronos e diálogo de convite. */
+
+/* Contém a rolagem nos limites das caixas, sem desativar o scroll interno. */
+.user-select-list,
+.manage-list,
+.cargo-picker-projects,
+.activity-suggestions,
+.cycle-data-table-scroll,
+#cycle-data-modal-body.cycle-data-history,
+.cycle-form-modal-backdrop .cycle-form-card,
+.switch-team-list{
+  overscroll-behavior:contain;
+}
+/* Mantém a mesma proteção nos contêineres das caixas sobrepostas. */
+.user-select-dialog,
+.switch-team-dialog,
+.profile-dialog,
+.manage-modal,
+.cargo-picker-popover,
+.cycle-data-modal,
+.cycle-data-modal-body,
+.admin-cycle-role-dialog{
+  overscroll-behavior:contain;
+}
+
+
+button:disabled{
+  background:#e2e5e9 !important;
+  color:#747d89 !important;
+  border-color:#d3d8df !important;
+  opacity:1 !important;
+  cursor:default !important;
+}
+button:disabled svg,button:disabled span{color:inherit !important;}
+
+
+#manage-team-overlay .profile-dialog-head h3{min-width:0;overflow-wrap:anywhere;}
+#manage-team-overlay .profile-dialog-close{flex-shrink:0;}
+.manage-team-invite{padding:12px;border:1px solid var(--border);border-radius:8px;background:var(--surface-2);}
+.manage-team-invite label{display:block;margin-bottom:8px;color:var(--muted);font-size:12px;}
+.manage-team-invite-row{display:flex;align-items:center;justify-content:space-between;gap:12px;}
+#manage-team-invite-code{min-width:0;overflow-wrap:anywhere;font-size:18px;font-weight:700;letter-spacing:1px;color:var(--accent-dark);}
+#manage-team-copy-btn{flex-shrink:0;}
+#manage-team-copy-status{display:block;color:var(--muted);font-size:12px;}
+#manage-team-copy-status:not(:empty){margin-top:6px;}

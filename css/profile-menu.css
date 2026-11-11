@@ -1,0 +1,3 @@
+/* Botão do modo observador no menu de perfil. */
+
+.profile-menu #observer-mode-toggle.is-on{color:var(--accent,#276097);background:color-mix(in srgb,var(--accent,#276097) 10%,transparent);}
