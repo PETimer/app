@@ -4,4 +4,4 @@
  * (Implantar > Nova implantação > Aplicativo da Web > copiar URL).
  */
 
-const API_URL = "https://script.google.com/macros/s/AKfycbxXMhqrNbpbVeltWnzmr7O41yrY_47nasQNJmHaPpEtgr3sZGsjVQx0sHMIRgHb4IYX/exec";
+const API_URL = "https://script.google.com/macros/s/AKfycbysQfECLX3ljFLdGdJFWFPBrtsRFFSlJxpaFVNGel_sDofLaIRLwMPRwbC1fz2aI5su1A/exec";
